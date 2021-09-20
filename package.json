@@ -1,0 +1,19 @@
+{
+  "name": "video-to-audio",
+  "version": "1.0.0",
+  "description": "video to audio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "lorena porphirio",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "express": "^4.17.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "multer": "^1.4.3",
+    "nodemon": "^2.0.12"
+  }
+}
